@@ -2,6 +2,7 @@
   publish = "dist"
   command = "npm run build"
 
+# Redirect all non-file requests to index.html for React Router
 [[redirects]]
   from = "/*"
   to = "/index.html"
